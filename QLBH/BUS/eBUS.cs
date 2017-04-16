@@ -44,7 +44,75 @@ namespace BUS
             return da.Sua(p);
         }
 
-      
 
+        //hang hoa
+        public DataTable LoadHH()
+        {
+            return da.LoadHH();
+        }
+
+
+        public int ThemHH(Hanghoa n)
+        {
+            if (n.MaSP == "")
+            {
+                MessageBox.Show("vui long nhap ma sp");
+                return -2;
+            }
+            if (n.MaLoaiSP != "1" && n.MaLoaiSP != "2" && n.MaLoaiSP != "3" && n.MaLoaiSP != "4" && n.MaLoaiSP != "5")
+            {
+                MessageBox.Show("vui long nhap ma loai thich hop (1,2,3,4,5)");
+                return -2;
+            }
+
+            try
+            {
+                return da.ThemHH(n);
+            }
+            catch (Exception ex)
+            {
+
+                throw ex;
+            }
+
+        }
+
+        public int XoaHH(Hanghoa n)
+        {
+            if (n.MaSP == "")
+            {
+                MessageBox.Show("vui long nhap ma sp can xoa");
+                return -2;
+            }
+            try
+            {
+                return da.XoaHH(n);
+            }
+            catch (Exception ex)
+            {
+
+                throw ex;
+            }
+        }
+
+        public int SuaHH(Hanghoa n)
+        {
+
+            if (n.MaSP == "")
+            {
+                MessageBox.Show("vui long nhap ma sp can sua");
+                return -2;
+            }
+            try
+            {
+                return da.SuaHH(n);
+            }
+            catch (Exception ex)
+            {
+
+                throw ex;
+            }
+
+        }
     }
 }
