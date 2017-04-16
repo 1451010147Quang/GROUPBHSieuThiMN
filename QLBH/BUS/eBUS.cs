@@ -114,5 +114,37 @@ namespace BUS
             }
 
         }
+
+        //nhanvien
+        public DataTable LoadNV()
+        {
+            return da.LoadNV();
+        }
+
+        public DataTable TimNV(NVien n)
+        {
+            return da.TimNV(n);
+        }
+        public DataTable TimtheotenNV(NVien n)
+        {
+            return da.TimtheotenNV(n);
+        }
+
+        public int ThemNV(NVien n)
+        {
+
+            return da.ThemNV(n);
+
+        }
+
+        public int XoaNV(NVien n)
+        {
+            return da.XoaNV(n);
+        }
+
+        public int SuaNV(NVien n)
+        {
+            return da.SuaNV(n);
+        }
     }
 }

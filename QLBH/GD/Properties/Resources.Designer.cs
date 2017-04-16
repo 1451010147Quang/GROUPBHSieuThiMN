@@ -83,6 +83,16 @@ namespace GD.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap phan_quyen_quan_ly_nhan_vien_1 {
+            get {
+                object obj = ResourceManager.GetObject("phan-quyen-quan-ly-nhan-vien-1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap sua1 {
             get {
                 object obj = ResourceManager.GetObject("sua1", resourceCulture);

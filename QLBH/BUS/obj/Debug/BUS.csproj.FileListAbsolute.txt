@@ -31,3 +31,5 @@ C:\Users\vinhquang\Desktop\phuc\GROUPBHSieuThiMN\QLBH\Bin\BUS.pdb
 C:\Users\vinhquang\Desktop\phuc\GROUPBHSieuThiMN\QLBH\BUS\obj\Debug\BUS.csprojResolveAssemblyReference.cache
 C:\Users\vinhquang\Desktop\phuc\GROUPBHSieuThiMN\QLBH\BUS\obj\Debug\BUS.dll
 C:\Users\vinhquang\Desktop\phuc\GROUPBHSieuThiMN\QLBH\BUS\obj\Debug\BUS.pdb
+C:\Users\vinhquang\Desktop\QLBHST\QLBH\Bin\BUS.dll
+C:\Users\vinhquang\Desktop\QLBHST\QLBH\Bin\BUS.pdb
