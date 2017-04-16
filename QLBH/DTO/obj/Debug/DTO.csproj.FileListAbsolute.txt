@@ -18,3 +18,8 @@ C:\Users\vinhquang\Desktop\QLBHST\QLBH\Bin\DTO.pdb
 C:\Users\vinhquang\Desktop\QLBHST\QLBH\DTO\obj\Debug\DTO.csprojResolveAssemblyReference.cache
 C:\Users\vinhquang\Desktop\QLBHST\QLBH\DTO\obj\Debug\DTO.dll
 C:\Users\vinhquang\Desktop\QLBHST\QLBH\DTO\obj\Debug\DTO.pdb
+C:\Users\vinhquang\Desktop\thinh\GROUPBHSieuThiMN\QLBH\Bin\DTO.dll
+C:\Users\vinhquang\Desktop\thinh\GROUPBHSieuThiMN\QLBH\Bin\DTO.pdb
+C:\Users\vinhquang\Desktop\thinh\GROUPBHSieuThiMN\QLBH\DTO\obj\Debug\DTO.csprojResolveAssemblyReference.cache
+C:\Users\vinhquang\Desktop\thinh\GROUPBHSieuThiMN\QLBH\DTO\obj\Debug\DTO.dll
+C:\Users\vinhquang\Desktop\thinh\GROUPBHSieuThiMN\QLBH\DTO\obj\Debug\DTO.pdb
