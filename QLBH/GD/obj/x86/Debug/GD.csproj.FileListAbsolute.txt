@@ -55,3 +55,13 @@ C:\Users\vinhquang\Desktop\thinh\GROUPBHSieuThiMN\QLBH\GD\obj\x86\Debug\GD.Prope
 C:\Users\vinhquang\Desktop\thinh\GROUPBHSieuThiMN\QLBH\GD\obj\x86\Debug\GD.csproj.GenerateResource.Cache
 C:\Users\vinhquang\Desktop\thinh\GROUPBHSieuThiMN\QLBH\Bin\GD.exe
 C:\Users\vinhquang\Desktop\thinh\GROUPBHSieuThiMN\QLBH\Bin\GD.pdb
+C:\Users\vinhquang\Desktop\phuc\GROUPBHSieuThiMN\QLBH\Bin\GD.exe.config
+C:\Users\vinhquang\Desktop\phuc\GROUPBHSieuThiMN\QLBH\GD\obj\x86\Debug\GD.exe
+C:\Users\vinhquang\Desktop\phuc\GROUPBHSieuThiMN\QLBH\GD\obj\x86\Debug\GD.pdb
+C:\Users\vinhquang\Desktop\phuc\GROUPBHSieuThiMN\QLBH\GD\obj\x86\Debug\GD.csprojResolveAssemblyReference.cache
+C:\Users\vinhquang\Desktop\phuc\GROUPBHSieuThiMN\QLBH\GD\obj\x86\Debug\GD.HangHoa.resources
+C:\Users\vinhquang\Desktop\phuc\GROUPBHSieuThiMN\QLBH\GD\obj\x86\Debug\GD.KhachHang.resources
+C:\Users\vinhquang\Desktop\phuc\GROUPBHSieuThiMN\QLBH\GD\obj\x86\Debug\GD.Properties.Resources.resources
+C:\Users\vinhquang\Desktop\phuc\GROUPBHSieuThiMN\QLBH\GD\obj\x86\Debug\GD.csproj.GenerateResource.Cache
+C:\Users\vinhquang\Desktop\phuc\GROUPBHSieuThiMN\QLBH\Bin\GD.exe
+C:\Users\vinhquang\Desktop\phuc\GROUPBHSieuThiMN\QLBH\Bin\GD.pdb

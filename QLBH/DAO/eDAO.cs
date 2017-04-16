@@ -72,6 +72,50 @@ namespace DAO
 
         }
 
+        //hang hoa
+        public DataTable LoadHH()
+        {
+            return da.Laydulieu("select * from ThucDon");
+        }
+
+
+        public int ThemHH(Hanghoa p)
+        {
+            int para = 5;
+            string[] name = new string[para];
+            object[] value = new object[para];
+            name[0] = "@MaSp"; value[0] = p.MaSP;
+            name[1] = "@TenSP"; value[1] = p.TenSP;
+            name[2] = "@Donvitinh"; value[2] = p.Donvitinh;
+            name[3] = "@Dongia"; value[3] = p.Dongia;
+            name[4] = "@MaLoaiSP"; value[4] = p.MaLoaiSP;
+            return da.ADD("insert into ThucDon(MaSp, TenSP, Donvitinh, Dongia, MaLoaiSP)values(@MaSP,@TenSP,@Donvitinh,@Dongia,@MaLoaiSP)", name, value, para);
+
+        }
+
+        public int XoaHH(Hanghoa p)
+        {
+            int para = 1;
+            string[] name = new string[para];
+            object[] value = new object[para];
+            name[0] = "@MaSP"; value[0] = p.MaSP;
+            return da.ADD("delete from ThucDon where MaSP = @MaSP", name, value, para);
+
+        }
+
+        public int SuaHH(Hanghoa p)
+        {
+            int para = 5;
+            string[] name = new string[para];
+            object[] value = new object[para];
+            name[0] = "@MaSp"; value[0] = p.MaSP;
+            name[1] = "@TenSP"; value[1] = p.TenSP;
+            name[2] = "@Donvitinh"; value[2] = p.Donvitinh;
+            name[3] = "@Dongia"; value[3] = p.Dongia;
+            name[4] = "@MaLoaiSP"; value[4] = p.MaLoaiSP;
+            return da.ADD("update ThucDon set TenSP= @TenSP, Donvitinh= @Donvitinh, Dongia= @Dongia, MaLoaiSP= @MaLoaiSP where MaSP=@MaSP", name, value, para);
+
+        }
 
     }
 }
