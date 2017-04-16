@@ -15,7 +15,7 @@ namespace GD
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            //Application.Run(new KhachHang());
+            Application.Run(new KhachHang());
             
         }
     }
