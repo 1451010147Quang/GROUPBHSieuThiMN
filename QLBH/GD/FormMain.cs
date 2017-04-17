@@ -41,8 +41,8 @@ namespace GD
 
         private void quảnLýHóaĐơnToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            //HoaDon formHD = new HoaDon();
-            //formHD.ShowDialog();
+            HoaDon formHD = new HoaDon();
+            formHD.ShowDialog();
         }
 
         private void thoátToolStripMenuItem_Click(object sender, EventArgs e)
