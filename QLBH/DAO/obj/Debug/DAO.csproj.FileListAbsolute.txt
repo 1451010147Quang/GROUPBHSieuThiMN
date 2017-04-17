@@ -33,3 +33,8 @@ C:\Users\vinhquang\Desktop\phuc\GROUPBHSieuThiMN\QLBH\DAO\obj\Debug\DAO.dll
 C:\Users\vinhquang\Desktop\phuc\GROUPBHSieuThiMN\QLBH\DAO\obj\Debug\DAO.pdb
 C:\Users\vinhquang\Desktop\QLBHST\QLBH\Bin\DAO.dll
 C:\Users\vinhquang\Desktop\QLBHST\QLBH\Bin\DAO.pdb
+C:\Users\Administrator\Desktop\toan\GROUPBHSieuThiMN\QLBH\Bin\DAO.dll
+C:\Users\Administrator\Desktop\toan\GROUPBHSieuThiMN\QLBH\Bin\DAO.pdb
+C:\Users\Administrator\Desktop\toan\GROUPBHSieuThiMN\QLBH\DAO\obj\Debug\DAO.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\toan\GROUPBHSieuThiMN\QLBH\DAO\obj\Debug\DAO.dll
+C:\Users\Administrator\Desktop\toan\GROUPBHSieuThiMN\QLBH\DAO\obj\Debug\DAO.pdb

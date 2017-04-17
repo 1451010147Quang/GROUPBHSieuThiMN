@@ -25,6 +25,7 @@ namespace DAO
             value[0] = p.MaKH;
             return da.Laydulieu("select * from KhachHang where MaKH = @MaKH", name, value, para);
         }
+
         public DataTable TimKH(Khachang p)
         {
             int para = 1;
@@ -34,6 +35,7 @@ namespace DAO
             value[0] = p.TenKH;
             return da.Laydulieu("select * from KhachHang where TenKH = @TenKH", name, value, para);
         }
+
         public int Them(Khachang p)
         {
             int para = 5;
@@ -70,6 +72,80 @@ namespace DAO
             name[4] = "@Fax"; value[4] = p.Fax;
             return da.ADD("update KhachHang set TenKH= @TenKH, DiaChi= @DiaChi, DienThoai= @DienThoai, Fax= @Fax where MaKH=@MaKH", name, value, para);
 
+        }
+
+
+        //Nhan vien
+        public DataTable LoadNV()
+        {
+            return da.Laydulieu("select * from Nhanvien");
+        }
+
+        public DataTable TimNV(NVien p)
+        {
+            int para = 1;
+            string[] name = new string[para];
+            object[] value = new object[para];
+            name[0] = "@MaNV";
+            value[0] = p.MaNV;
+            return da.Laydulieu("select * from Nhanvien where MaNV = @MaNV", name, value, para);
+
+        }
+
+        public DataTable TimtheotenNV(NVien p)
+        {
+            int para = 1;
+            string[] name = new string[para];
+            object[] value = new object[para];
+            name[0] = "@Ten";
+            value[0] = p.Ten;
+            return da.Laydulieu("select * from Nhanvien where Ten = @Ten", name, value, para);
+
+        }
+
+        public int ThemNV(NVien p)
+        {
+            int para = 5;
+            string[] name = new string[para];
+            object[] value = new object[para];
+            name[0] = "@MaNV"; value[0] = p.MaNV;
+            name[1] = "@HoNV"; value[1] = p.HoNV;
+            name[2] = "@Ten"; value[2] = p.Ten;
+            name[3] = "@DiaChi"; value[3] = p.DiaChi;
+            name[4] = "@DienThoai"; value[4] = p.DienThoai;
+            return da.ADD("insert into Nhanvien(MaNV, HoNV, Ten, DiaChi, DienThoai)values(@MaNV,@HoNV,@Ten,@DiaChi,@DienThoai)", name, value, para);
+
+        }
+
+        public int XoaNV(NVien p)
+        {
+            int para = 1;
+            string[] name = new string[para];
+            object[] value = new object[para];
+            name[0] = "@MaNV"; value[0] = p.MaNV;
+            return da.ADD("delete from Nhanvien where MaNV = @MaNV", name, value, para);
+
+        }
+
+        public int SuaNV(NVien p)
+        {
+            int para = 5;
+            string[] name = new string[para];
+            object[] value = new object[para];
+            name[0] = "@MaNV"; value[0] = p.MaNV;
+            name[1] = "@HoNV"; value[1] = p.HoNV;
+            name[2] = "@Ten"; value[2] = p.Ten;
+            name[3] = "@DiaChi"; value[3] = p.DiaChi;
+            name[4] = "@DienThoai"; value[4] = p.DienThoai;
+            return da.ADD("update Nhanvien set HoNV= @HoNV, Ten= @Ten, DiaChi= @DiaChi, DienThoai= @DienThoai where MaNV=@MaNV", name, value, para);
+
+        }
+
+        public DataTable Nhanvien_Report()
+        {
+            DataTable dt = new DataTable();
+            dt = da.Laydulieu("Nhanvien_Report");
+            return dt;
         }
 
         //hang hoa
@@ -118,71 +194,48 @@ namespace DAO
         }
 
 
-        //Nhan vien
-        public DataTable LoadNV()
+        //hoa don
+        public DataTable LoadHD()
         {
-            return da.Laydulieu("select * from Nhanvien");
+            return da.Laydulieu("select * from HoaDon");
         }
 
-        public DataTable TimNV(NVien p)
+
+        public int ThemHD(Hoadon p)
+        {
+            int para = 4;
+            string[] name = new string[para];
+            object[] value = new object[para];
+            name[0] = "@MaHD"; value[0] = p.MaHD;
+            name[1] = "@MaKH"; value[1] = p.MaKH;
+            name[2] = "@MaNV"; value[2] = p.MaNV;
+            name[3] = "@NgayLapHD"; value[3] = p.NgayLapHD;
+
+            return da.ADD("insert into HoaDon(MaHD, MaKH, MaNV, NgayLapHD)values(@MaHD,@MaKH,@MaNV,@NgayLapHD)", name, value, para);
+
+        }
+
+        public int XoaHD(Hoadon p)
         {
             int para = 1;
             string[] name = new string[para];
             object[] value = new object[para];
-            name[0] = "@MaNV";
-            value[0] = p.MaNV;
-            return da.Laydulieu("select * from Nhanvien where MaNV = @MaNV", name, value, para);
+            name[0] = "@MaHD"; value[0] = p.MaHD;
+            return da.ADD("delete from HoaDon where MaHD = @MaHD", name, value, para);
 
         }
 
-        public DataTable TimtheotenNV(NVien p)
+        public int SuaHD(Hoadon p)
         {
-            int para = 1;
+            int para = 4;
             string[] name = new string[para];
             object[] value = new object[para];
-            name[0] = "@Ten";
-            value[0] = p.Ten;
-            return da.Laydulieu("select * from Nhanvien where Ten = @Ten", name, value, para);
+            name[0] = "@MaHD"; value[0] = p.MaHD;
+            name[1] = "@MaKH"; value[1] = p.MaKH;
+            name[2] = "@MaNV"; value[2] = p.MaNV;
+            name[3] = "@NgayLapHD"; value[3] = p.NgayLapHD;
+            return da.ADD("update HoaDon set MaKH= @MaKH, MaNV= @MaNV, NgayLapHD = @NgayLapHD where MaHD=@MaHD", name, value, para);
 
         }
-        public int ThemNV(NVien p)
-        {
-            int para = 5;
-            string[] name = new string[para];
-            object[] value = new object[para];
-            name[0] = "@MaNV"; value[0] = p.MaNV;
-            name[1] = "@HoNV"; value[1] = p.HoNV;
-            name[2] = "@Ten"; value[2] = p.Ten;
-            name[3] = "@DiaChi"; value[3] = p.DiaChi;
-            name[4] = "@DienThoai"; value[4] = p.DienThoai;
-            return da.ADD("insert into Nhanvien(MaNV, HoNV, Ten, DiaChi, DienThoai)values(@MaNV,@HoNV,@Ten,@DiaChi,@DienThoai)", name, value, para);
-
-        }
-
-        public int XoaNV(NVien p)
-        {
-            int para = 1;
-            string[] name = new string[para];
-            object[] value = new object[para];
-            name[0] = "@MaNV"; value[0] = p.MaNV;
-            return da.ADD("delete from Nhanvien where MaNV = @MaNV", name, value, para);
-
-        }
-
-        public int SuaNV(NVien p)
-        {
-            int para = 5;
-            string[] name = new string[para];
-            object[] value = new object[para];
-            name[0] = "@MaNV"; value[0] = p.MaNV;
-            name[1] = "@HoNV"; value[1] = p.HoNV;
-            name[2] = "@Ten"; value[2] = p.Ten;
-            name[3] = "@DiaChi"; value[3] = p.DiaChi;
-            name[4] = "@DienThoai"; value[4] = p.DienThoai;
-            return da.ADD("update Nhanvien set HoNV= @HoNV, Ten= @Ten, DiaChi= @DiaChi, DienThoai= @DienThoai where MaNV=@MaNV", name, value, para);
-
-        }
-
-
     }
 }

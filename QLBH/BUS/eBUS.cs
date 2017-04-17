@@ -146,5 +146,29 @@ namespace BUS
         {
             return da.SuaNV(n);
         }
+
+        //hoadon
+        public DataTable LoadHD()
+        {
+            return da.LoadHD();
+        }
+
+
+        public int ThemHD(Hoadon n)
+        {
+
+            return da.ThemHD(n);
+
+        }
+
+        public int XoaHD(Hoadon n)
+        {
+            return da.XoaHD(n);
+        }
+
+        public int SuaHD(Hoadon n)
+        {
+            return da.SuaHD(n);
+        }
     }
 }

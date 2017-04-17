@@ -70,3 +70,17 @@ C:\Users\vinhquang\Desktop\QLBHST\QLBH\GD\obj\x86\Debug\GD.FormMain.resources
 C:\Users\vinhquang\Desktop\QLBHST\QLBH\GD\obj\x86\Debug\GD.HangHoa.resources
 C:\Users\vinhquang\Desktop\QLBHST\QLBH\GD\obj\x86\Debug\GD.KhachHang.resources
 C:\Users\vinhquang\Desktop\QLBHST\QLBH\GD\obj\x86\Debug\GD.NhanVien.resources
+C:\Users\Administrator\Desktop\toan\GROUPBHSieuThiMN\QLBH\Bin\GD.exe.config
+C:\Users\Administrator\Desktop\toan\GROUPBHSieuThiMN\QLBH\GD\obj\x86\Debug\GD.exe
+C:\Users\Administrator\Desktop\toan\GROUPBHSieuThiMN\QLBH\GD\obj\x86\Debug\GD.pdb
+C:\Users\Administrator\Desktop\toan\GROUPBHSieuThiMN\QLBH\Bin\GD.exe
+C:\Users\Administrator\Desktop\toan\GROUPBHSieuThiMN\QLBH\Bin\GD.pdb
+C:\Users\Administrator\Desktop\toan\GROUPBHSieuThiMN\QLBH\GD\obj\x86\Debug\GD.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\toan\GROUPBHSieuThiMN\QLBH\GD\obj\x86\Debug\GD.DangNhap.resources
+C:\Users\Administrator\Desktop\toan\GROUPBHSieuThiMN\QLBH\GD\obj\x86\Debug\GD.FormMain.resources
+C:\Users\Administrator\Desktop\toan\GROUPBHSieuThiMN\QLBH\GD\obj\x86\Debug\GD.HangHoa.resources
+C:\Users\Administrator\Desktop\toan\GROUPBHSieuThiMN\QLBH\GD\obj\x86\Debug\GD.KhachHang.resources
+C:\Users\Administrator\Desktop\toan\GROUPBHSieuThiMN\QLBH\GD\obj\x86\Debug\GD.NhanVien.resources
+C:\Users\Administrator\Desktop\toan\GROUPBHSieuThiMN\QLBH\GD\obj\x86\Debug\GD.Properties.Resources.resources
+C:\Users\Administrator\Desktop\toan\GROUPBHSieuThiMN\QLBH\GD\obj\x86\Debug\GD.csproj.GenerateResource.Cache
+C:\Users\Administrator\Desktop\toan\GROUPBHSieuThiMN\QLBH\GD\obj\x86\Debug\GD.HoaDon.resources

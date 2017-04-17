@@ -41,6 +41,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Hanghoa.cs" />
+    <Compile Include="Hoadon.cs" />
     <Compile Include="Khachang.cs" />
     <Compile Include="NVien.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
